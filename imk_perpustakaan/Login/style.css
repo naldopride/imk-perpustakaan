@@ -1,0 +1,254 @@
+.register-login,
+.register-login * {
+  box-sizing: border-box;
+}
+.register-login {
+  background: #ffffff;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.rak-1 {
+  border-radius: 11px;
+  width: 100%;
+  height: 948px;
+  position: absolute;
+  top: 38px;
+  object-fit: cover;
+  aspect-ratio: 1491/948;
+}
+.rectangle-1 {
+  background: #c5d9b8;
+  width: 100%;
+  height: 65px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.rectangle-3 {
+  background: #c5d9b8;
+  width: 100%;
+  height: 90px;
+  position:absolute;
+  left: 0px;
+  top: 930px;
+}
+.home {
+  color: #2f523d;
+  text-align: center;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 24px;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  position: absolute;
+  left: 799px;
+  top: 28px;
+}
+.koleksi {
+  color: #2f523d;
+  text-align: center;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 24px;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  position: absolute;
+  left: 892px;
+  top: 28px;
+}
+.layanan {
+  color: #2f523d;
+  text-align: center;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 24px;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  position: absolute;
+  left: 999px;
+  top: 28px;
+}
+.rectangle-5 {
+  background: #f1efd7;
+  border-radius: 93px;
+  opacity: 0.75;
+  width: 700px;
+  height: 477px;
+  position: absolute;
+  left: 282px;
+  top: 267px;
+}
+.nama-pengguna {
+  color: #000000;
+  text-align: center;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 24px;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  position: absolute;
+  left: 330px;
+  top: 446px;
+}
+.kata-sandi {
+  color: #000000;
+  text-align: center;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 22px;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  position: absolute;
+  left: 414px;
+  top: 514px;
+}
+.masuk {
+  color: #000000;
+  text-align: center;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 32px;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  position: absolute;
+  left: 570px;
+  top: 334px;
+}
+.rectangle-7 {
+  background: #ffffff;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 255px;
+  height: 35px;
+  position: absolute;
+  left: 586px;
+  top: 436px;
+}
+.rectangle-9 {
+  background: #ffffff;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 255px;
+  height: 35px;
+  position: absolute;
+  left: 589px;
+  top: 504px;
+}
+.group-14 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-11 {
+  border-radius: 0px;
+  width: 266px;
+  height: 66px;
+  position: absolute;
+  left: 505px;
+  top: 628px;
+  overflow: visible;
+}
+.frame-6 {
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 117px;
+  position: absolute;
+  left: 610px;
+  top: 633px;
+}
+.frame-5 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 36px;
+  position: relative;
+}
+.login {
+  color: #fff8f8;
+  text-align: center;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 24px;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  position: absolute;
+  left: 590px;
+  top: 653px;
+}
+.perpus-kita {
+  color: #2f523d;
+  text-align: center;
+  font-family: var(--label-medium-font, "Roboto-Medium", sans-serif);
+  font-size: 18px;
+  line-height: var(--label-medium-line-height, 16px);
+  letter-spacing: var(--label-medium-tracking, 0.5px);
+  font-weight: 500;
+  position: absolute;
+  left: 647px;
+  top: 971px;
+  width: 145px;
+  height: 23px;
+}
+.belum-punya-akun {
+  color: #000000;
+  text-align: center;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 19px;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  position: absolute;
+  left: 462px;
+  top: 572px;
+}
+.daftar-akun {
+  color: #1c08f3;
+  text-align: center;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 19px;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  position: absolute;
+  left: 691px;
+  top: 572px;
+}
+.account-circle {
+  width: 70px;
+  height: 71px;
+  position: absolute;
+  left: 1170px;
+  top: -3px;
+  overflow: visible;
+}
+.bell {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 1136px;
+  top: 26px;
+  overflow: visible;
+}
+.chat-gpt-image-29-apr-2025-21-23-28-2 {
+  width: 240px;
+  height: 225px;
+  position: absolute;
+  left: 9px;
+  top: -80px;
+  object-fit: cover;
+  aspect-ratio: 298/293;
+}
