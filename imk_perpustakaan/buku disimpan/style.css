@@ -1,0 +1,577 @@
+.buku-disimpan,
+.buku-disimpan * {
+  box-sizing: border-box;
+}
+.buku-disimpan {
+  background: #fffdf6;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-13 {
+  background: #c5d9b8;
+  border-radius: 10px;
+  width: 1391px;
+  height: 110px;
+  position: absolute;
+  left: 24px;
+  top: 137px;
+}
+.rectangle-1 {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(to left, #c5d9b8, #c5d9b8);
+  width: 1440px;
+  height: 106px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.rectangle-3 {
+  background: #c5d9b8;
+  width: 1440px;
+  height: 106px;
+  position: absolute;
+  left: 0px;
+  top: 918px;
+}
+.home {
+  color: #000000;
+  text-align: center;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 24px;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  position: absolute;
+  left: 898px;
+  top: 45px;
+}
+.koleksi {
+  color: #000000;
+  text-align: center;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 24px;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  position: absolute;
+  left: 999px;
+  top: 45px;
+}
+.layanan {
+  color: #000000;
+  text-align: center;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 24px;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  position: absolute;
+  left: 1116px;
+  top: 45px;
+}
+.perpus-kita {
+  color: #000000;
+  text-align: center;
+  font-family: var(--label-medium-font, "Roboto-Medium", sans-serif);
+  font-size: 24px;
+  line-height: var(--label-medium-line-height, 16px);
+  letter-spacing: var(--label-medium-tracking, 0.5px);
+  font-weight: 500;
+  position: absolute;
+  left: 647px;
+  top: 971px;
+  width: 145px;
+  height: 23px;
+}
+.bell {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 1255px;
+  top: 40px;
+  overflow: visible;
+}
+.account-circle {
+  width: 79px;
+  height: 81px;
+  position: absolute;
+  left: 1318px;
+  top: 17px;
+  overflow: visible;
+}
+.chat-gpt-image-29-apr-2025-21-23-28-2 {
+  width: 298px;
+  height: 293px;
+  position: absolute;
+  left: -16px;
+  top: -93px;
+  object-fit: cover;
+  aspect-ratio: 298/293;
+}
+.daftar-buku-yang-disimpan {
+  color: #000000;
+  text-align: center;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 46px;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  position: absolute;
+  left: 50px;
+  top: 184px;
+}
+.rectangle-6 {
+  background: #f1efd7;
+  border-radius: 25px;
+  width: 572px;
+  height: 312px;
+  position: absolute;
+  left: 102px;
+  top: 267px;
+}
+.screenshot-2025-04-14-204935-3 {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 132px;
+  height: 210px;
+  position: absolute;
+  left: 142px;
+  top: 292px;
+  object-fit: cover;
+  aspect-ratio: 132/210;
+}
+.sang-raja-hutan {
+  color: #000000;
+  text-align: left;
+  font-family: "InknutAntiqua-Bold", sans-serif;
+  font-size: 23px;
+  line-height: 100%;
+  font-weight: 700;
+  position: absolute;
+  left: 297px;
+  top: 305px;
+  width: 335px;
+  height: 27px;
+}
+.samira-hadid {
+  color: #000000;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 21px;
+  line-height: 100%;
+  font-weight: 400;
+  position: absolute;
+  left: 297px;
+  top: 393px;
+  width: 163px;
+  height: 27px;
+}
+.pencipta {
+  color: #000000;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 21px;
+  line-height: 100%;
+  font-weight: 400;
+  position: absolute;
+  left: 297px;
+  top: 361px;
+  width: 163px;
+  height: 27px;
+}
+.dongeng {
+  color: #000000;
+  text-align: left;
+  font-family: "InstrumentSans-Bold", sans-serif;
+  font-size: 21px;
+  line-height: 100%;
+  font-weight: 700;
+  position: absolute;
+  left: 297px;
+  top: 477px;
+  width: 163px;
+  height: 27px;
+}
+.genre {
+  color: #000000;
+  text-align: left;
+  font-family: "InstrumentSans-Bold", sans-serif;
+  font-size: 21px;
+  line-height: 100%;
+  font-weight: 700;
+  position: absolute;
+  left: 297px;
+  top: 445px;
+  width: 163px;
+  height: 27px;
+}
+.rectangle-14 {
+  background: #f1efd7;
+  border-radius: 25px;
+  width: 572px;
+  height: 317px;
+  position: absolute;
+  left: 750px;
+  top: 262px;
+}
+.si-monyet-yang-cerdik {
+  color: #000000;
+  text-align: left;
+  font-family: "InknutAntiqua-Bold", sans-serif;
+  font-size: 23px;
+  line-height: 100%;
+  font-weight: 700;
+  position: absolute;
+  left: 945px;
+  top: 295px;
+  width: 377px;
+  height: 36px;
+}
+.cahaya-dewi {
+  color: #000000;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 21px;
+  line-height: 100%;
+  font-weight: 400;
+  position: absolute;
+  left: 945px;
+  top: 397px;
+  width: 163px;
+  height: 27px;
+}
+.screenshot-2025-04-14-210554-3 {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 132px;
+  height: 210px;
+  position: absolute;
+  left: 791px;
+  top: 292px;
+  object-fit: cover;
+}
+.rectangle-15 {
+  background: #f1efd7;
+  border-radius: 25px;
+  width: 572px;
+  height: 312px;
+  position: absolute;
+  left: 104px;
+  top: 593px;
+}
+.screenshot-2025-04-14-220044 {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 132px;
+  height: 210px;
+  position: absolute;
+  left: 142px;
+  top: 616px;
+  object-fit: cover;
+}
+.genre2 {
+  color: #000000;
+  text-align: left;
+  font-family: "InstrumentSans-Bold", sans-serif;
+  font-size: 21px;
+  line-height: 100%;
+  font-weight: 700;
+  position: absolute;
+  left: 297px;
+  top: 774px;
+  width: 163px;
+  height: 27px;
+}
+.petualangan-si-beruang {
+  color: #000000;
+  text-align: left;
+  font-family: "InknutAntiqua-Bold", sans-serif;
+  font-size: 23px;
+  line-height: 100%;
+  font-weight: 700;
+  position: absolute;
+  left: 297px;
+  top: 622px;
+  width: 335px;
+  height: 27px;
+}
+.pencipta2 {
+  color: #000000;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 21px;
+  line-height: 100%;
+  font-weight: 400;
+  position: absolute;
+  left: 946px;
+  top: 366px;
+  width: 163px;
+  height: 27px;
+}
+.genre3 {
+  color: #000000;
+  text-align: left;
+  font-family: "InstrumentSans-Bold", sans-serif;
+  font-size: 21px;
+  line-height: 100%;
+  font-weight: 700;
+  position: absolute;
+  left: 945px;
+  top: 449px;
+  width: 163px;
+  height: 27px;
+}
+.dongeng2 {
+  color: #000000;
+  text-align: left;
+  font-family: "InstrumentSans-Bold", sans-serif;
+  font-size: 21px;
+  line-height: 100%;
+  font-weight: 700;
+  position: absolute;
+  left: 945px;
+  top: 481px;
+  width: 163px;
+  height: 28px;
+}
+.pencipta3 {
+  color: #000000;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 21px;
+  line-height: 100%;
+  font-weight: 400;
+  position: absolute;
+  left: 297px;
+  top: 694px;
+  width: 163px;
+  height: 27px;
+}
+.cahaya-dewi2 {
+  color: #000000;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 21px;
+  line-height: 100%;
+  font-weight: 400;
+  position: absolute;
+  left: 297px;
+  top: 726px;
+  width: 163px;
+  height: 27px;
+}
+.dongeng3 {
+  color: #000000;
+  text-align: left;
+  font-family: "InstrumentSans-Bold", sans-serif;
+  font-size: 21px;
+  line-height: 100%;
+  font-weight: 700;
+  position: absolute;
+  left: 297px;
+  top: 808px;
+  width: 163px;
+  height: 27px;
+}
+.rectangle-16 {
+  background: #f1efd7;
+  border-radius: 25px;
+  width: 572px;
+  height: 312px;
+  position: absolute;
+  left: 754px;
+  top: 593px;
+}
+.cinta-diantara-dua-pilihan {
+  color: #000000;
+  text-align: left;
+  font-family: "InknutAntiqua-Bold", sans-serif;
+  font-size: 23px;
+  line-height: 100%;
+  font-weight: 700;
+  position: absolute;
+  left: 945px;
+  top: 622px;
+  width: 335px;
+  height: 27px;
+}
+.ketut-susilo {
+  color: #000000;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 21px;
+  line-height: 100%;
+  font-weight: 400;
+  position: absolute;
+  left: 945px;
+  top: 726px;
+  width: 163px;
+  height: 27px;
+}
+.novel {
+  color: #000000;
+  text-align: left;
+  font-family: "InstrumentSans-Bold", sans-serif;
+  font-size: 21px;
+  line-height: 100%;
+  font-weight: 700;
+  position: absolute;
+  left: 945px;
+  top: 808px;
+  width: 163px;
+  height: 27px;
+}
+.line-23 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 163.01px;
+  height: 0px;
+  position: absolute;
+  left: 297px;
+  top: 432px;
+  transform-origin: 0 0;
+  transform: rotate(0.703deg) scale(1, 1);
+}
+.line-24 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 307.01px;
+  height: 0px;
+  position: absolute;
+  left: 297px;
+  top: 347px;
+  transform-origin: 0 0;
+  transform: rotate(0.373deg) scale(1, 1);
+}
+.pencipta4 {
+  color: #000000;
+  text-align: left;
+  font-family: "InstrumentSans-Regular", sans-serif;
+  font-size: 21px;
+  line-height: 100%;
+  font-weight: 400;
+  position: absolute;
+  left: 946px;
+  top: 694px;
+  width: 163px;
+  height: 27px;
+}
+.line-27 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 307.01px;
+  height: 0px;
+  position: absolute;
+  left: 297px;
+  top: 680px;
+  transform-origin: 0 0;
+  transform: rotate(0.373deg) scale(1, 1);
+}
+.genre4 {
+  color: #000000;
+  text-align: left;
+  font-family: "InstrumentSans-Bold", sans-serif;
+  font-size: 21px;
+  line-height: 100%;
+  font-weight: 700;
+  position: absolute;
+  left: 946px;
+  top: 774px;
+  width: 163px;
+  height: 27px;
+}
+.line-26 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 171px;
+  height: 0px;
+  position: absolute;
+  left: 945px;
+  top: 434px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.line-33 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 171px;
+  height: 0px;
+  position: absolute;
+  left: 296px;
+  top: 761px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.line-32 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 171px;
+  height: 0px;
+  position: absolute;
+  left: 946px;
+  top: 761px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.line-25 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 307.01px;
+  height: 0px;
+  position: absolute;
+  left: 945px;
+  top: 353px;
+  transform-origin: 0 0;
+  transform: rotate(0.373deg) scale(1, 1);
+}
+.line-31 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 307.01px;
+  height: 0px;
+  position: absolute;
+  left: 945px;
+  top: 680px;
+  transform-origin: 0 0;
+  transform: rotate(0.373deg) scale(1, 1);
+}
+.group-4 {
+  position: absolute;
+  inset: 0;
+}
+.screenshot-2025-04-14-213517-1 {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 131.38px;
+  height: 210px;
+  position: absolute;
+  left: 792px;
+  top: 616px;
+  object-fit: cover;
+  aspect-ratio: 131.38/210;
+}
