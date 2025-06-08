@@ -1,0 +1,259 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.background-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* Header/Navbar */
+.header {
+  background-color: rgba(197, 217, 184, 0.95);
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  position: relative;
+  z-index: 1;
+}
+
+/* Kiri: Logo */
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-icon {
+  width: 250px;
+  height: auto;
+}
+
+.logo-text {
+  font-size: 20px;
+  font-weight: bold;
+  color: #2f523d;
+}
+
+/* Kanan: Menu dan ikon */
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 25px;
+}
+
+.nav-item {
+  font-size: 18px;
+  font-weight: 500;
+  color: #2f523d;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.nav-item:hover {
+  background-color: #fff;
+  padding: 2px 2px;
+  border-radius: 10px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+.icon:hover {
+  background-color: #fff;
+  padding: 2px 2px;
+  border-radius: 10px;
+}
+/* Main */
+main {
+  max-width: 100rem;
+  width: 100%;
+  padding: 1rem 2rem;
+  flex-grow: 1;
+}
+/* Profil Diri header */
+.profile-header {
+  background-color: #b7d0b0;
+  border-radius: 0.375rem;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.profile-header button {
+  font-size: 1.125rem;
+}
+/* Profile content container */
+.profile-content {
+  background-color: #f3f0d7;
+  border-radius: 0.375rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  color: #2f3e2f;
+  font-size: 0.875rem;
+  line-height: 1.4;
+}
+@media (min-width: 640px) {
+  .profile-content {
+    flex-direction: row;
+    gap: 2rem;
+  }
+}
+/* Left side */
+.profile-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  max-width: 280px;
+}
+@media (min-width: 640px) {
+  .profile-left {
+    align-items: flex-start;
+    width: 50%;
+  }
+}
+.profile-image-container {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #d9d9d9;
+  border-radius: 0.125rem;
+  overflow: hidden;
+}
+.profile-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.profile-image-container button {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background-color: #f3f0d7;
+  border: 1px solid #2f3e2f;
+  border-radius: 0.25rem;
+  padding: 0.25rem 0.375rem;
+  color: #2f3e2f;
+  font-size: 1rem;
+  transition: background-color 0.2s ease;
+}
+.profile-image-container button:hover {
+  background-color: #d9d9d9;
+}
+/* Buttons below image */
+.profile-buttons {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  justify-content: center;
+}
+@media (min-width: 640px) {
+  .profile-buttons {
+    justify-content: flex-start;
+  }
+}
+.profile-buttons button {
+  background-color: #b7d0b0;
+  border: 1px solid #2f3e2f;
+  border-radius: 0.375rem;
+  padding: 0.25rem 1rem;
+  font-size: 0.875rem;
+  color: #2f3e2f;
+  transition: background-color 0.2s ease;
+}
+.profile-buttons button:hover {
+  background-color: #a0b18a;
+}
+/* Right side */
+.profile-right {
+  width: 100%;
+  font-size: 1.5rem;
+  line-height: 1.4;
+}
+@media (min-width: 640px) {
+  .profile-right {
+    width: 50%;
+  }
+}
+.section-block {
+  margin-bottom: 1.5rem;
+}
+.section-block:last-child {
+  margin-bottom: 0;
+}
+.section-title {
+  font-weight: 600;
+  border-bottom: 1px solid #2f3e2f;
+  padding-bottom: 0.25rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+.section-block p {
+  margin: 0.25rem 0 0.75rem 0;
+}
+.section-block p span {
+  font-weight: 400;
+}
+/* Footer */
+.footer {
+  background-color: #b9d5b1;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    height: auto;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .header-right {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+}
