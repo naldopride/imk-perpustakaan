@@ -7,3 +7,4 @@
 <br></br>
 <br> username admin : admin1 </br>
 <br> password admin : admin123 </br>
+<br> * untuk membuka web silahkan import file sql ke phpmyadmin dengan nama database perpuskita * </br>
